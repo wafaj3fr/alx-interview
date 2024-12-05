@@ -10,7 +10,7 @@ def island_perimeter(grid):
 
     Args:
         grid (list of list of int): A 2D grid representing the map.
-    
+
     Returns:
         int: The perimeter of the island.
     """
@@ -31,7 +31,7 @@ def island_perimeter(grid):
 
                 if (c > 0 and grid[r][c - 1] == 1):
                     perimeter -= 1
-                
+
                 if (c < cols - 1 and grid[r][c + 1] == 1):
                     perimeter -= 1
 
